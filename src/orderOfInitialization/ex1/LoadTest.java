@@ -1,4 +1,6 @@
-package orderOfInitialization;
+package orderOfInitialization.ex1;
+
+import orderOfInitialization.ex1.Child;
 
 public class LoadTest {
     /*Order of Initialization

@@ -1,4 +1,4 @@
-package orderOfInitialization;
+package orderOfInitialization.ex1;
 
 public class Parent extends Grandparent {
     {

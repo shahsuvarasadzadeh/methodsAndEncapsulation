@@ -1,4 +1,4 @@
-package orderOfInitialization;
+package orderOfInitialization.ex2;
 
 public class InitalizationOrder {
     private String name = "Orxan";
