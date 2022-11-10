@@ -17,6 +17,7 @@ dəyərinin dəyişdirilməsi (assignment) orijinal dəyərə (caller) təsir g�
     public static void changeValues(int age, String name) {
         age = 23;
         name = "Murad";
+
     }
 /**--------------------------------------------------------------*/
 

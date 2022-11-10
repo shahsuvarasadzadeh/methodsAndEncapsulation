@@ -1,11 +1,12 @@
 package creatingConstructors;
 
 public class Book {
+
     /*Konstruktor class adı ilə eyni olan və geri dönüş tipi (return type) olmayan xüsusi metoddur.*/
 
   //  public book() {} // line1, DOES NOT COMPILE
     public void Book() {} // line2
-    public Book() {} // line3
+     public Book() {} // line3
     public Book(Book b) {} // line4
 
     /**
@@ -28,10 +29,10 @@ dəyişəni lokal dəyişəndən fərqləndirmək istəyiriksə, o zaman instanc
     private int page;
     private int weight;
     public Book(int page, int theWeight) {
-        page = this.page; // dəyər dəyişilmir, yaxşı hal deyil
+        //page = this.page; // dəyər dəyişilmir, yaxşı hal deyil
         weight = theWeight; // normaldır, çünki fərqli adlardır
         this.author = "Roel"; // normaldır, amma this artıqdır
-        // this.page = page; // ən çox istifadə edilən forma
+        this.page = page; // ən çox istifadə edilən forma
     }
         public static void main(String[] args) {
             Book b = new Book(7, 2);
