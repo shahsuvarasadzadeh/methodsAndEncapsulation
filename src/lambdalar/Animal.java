@@ -12,6 +12,8 @@ public class Animal {
         this.canHop = canHop;
     }
 
+
+
     public String toString() {
         return name;
     }
